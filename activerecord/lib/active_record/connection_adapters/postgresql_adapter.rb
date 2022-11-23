@@ -880,7 +880,7 @@ module ActiveRecord
           end
 
           # Set interval output format to ISO 8601 for ease of parsing by ActiveSupport::Duration.parse
-          execute("SET intervalstyle = iso_8601", "SCHEMA")
+          # execute("SET intervalstyle = iso_8601", "SCHEMA")
 
           # SET statements from :variables config hash
           # https://www.postgresql.org/docs/current/static/sql-set.html
